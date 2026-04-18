@@ -76,12 +76,14 @@
             width: 60px;
             height: 60px;
             border-radius: 14px;
-            background: linear-gradient(135deg, #4f8ef7, #6f4ef7);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.8rem;
+            overflow: hidden;
             flex-shrink: 0;
+        }
+
+        .app-icon img {
+            width: 100%;
+            height: 100%;
+            display: block;
         }
 
         .app-info h2 {
@@ -130,7 +132,7 @@
 
         <div class="apps">
             <div class="app-card">
-                <div class="app-icon">&#x5c06;</div>
+                <div class="app-icon"><img src="kaizendoku-support/icon.png" alt="KaizenDoku icon"></div>
                 <div class="app-info">
                     <h2>KaizenDoku</h2>
                     <p>A rich Sudoku experience for iPhone and iPad — multiple modes, smart hints, and deep puzzles.</p>
