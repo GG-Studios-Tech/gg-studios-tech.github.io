@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GG Studios Tech</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #0f0f0f;
+            color: #f0f0f0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 680px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            color: #ffffff;
+            margin-bottom: 12px;
+        }
+
+        .logo span {
+            color: #4f8ef7;
+        }
+
+        .tagline {
+            font-size: 1.1rem;
+            color: #888;
+            margin-bottom: 48px;
+        }
+
+        .apps {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-bottom: 48px;
+        }
+
+        .app-card {
+            background: #1a1a1a;
+            border: 1px solid #2a2a2a;
+            border-radius: 16px;
+            padding: 24px 28px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            text-align: left;
+            text-decoration: none;
+            color: inherit;
+            transition: border-color 0.2s;
+        }
+
+        .app-card:hover {
+            border-color: #4f8ef7;
+        }
+
+        .app-icon {
+            width: 60px;
+            height: 60px;
+            border-radius: 14px;
+            background: linear-gradient(135deg, #4f8ef7, #6f4ef7);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            flex-shrink: 0;
+        }
+
+        .app-info h2 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .app-info p {
+            font-size: 0.9rem;
+            color: #888;
+            line-height: 1.4;
+        }
+
+        .app-info .support-link {
+            display: inline-block;
+            margin-top: 8px;
+            font-size: 0.85rem;
+            color: #4f8ef7;
+            text-decoration: none;
+        }
+
+        .app-info .support-link:hover {
+            text-decoration: underline;
+        }
+
+        .footer {
+            font-size: 0.85rem;
+            color: #555;
+        }
+
+        .footer a {
+            color: #888;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">GG Studios <span>Tech</span></div>
+        <p class="tagline">Mobile apps crafted with care.</p>
+
+        <div class="apps">
+            <div class="app-card">
+                <div class="app-icon">&#x5c06;</div>
+                <div class="app-info">
+                    <h2>KaizenDoku</h2>
+                    <p>A rich Sudoku experience for iPhone and iPad — multiple modes, smart hints, and deep puzzles.</p>
+                    <a class="support-link" href="https://gg-studios-tech.github.io/sudoku-shisho-support/">Support &amp; Privacy Policy &rarr;</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 GG Studios Tech &mdash; <a href="mailto:nathaniel.a.vazquez@gmail.com">Contact</a></p>
+        </div>
+    </div>
+</body>
+</html>
